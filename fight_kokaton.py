@@ -137,6 +137,8 @@ class Beam:
             screen.blit(self.img, self.rct)
 
 class Score:
+
+    
     def __init__(self):
         self.fonto = pg.font.SysFont("broadway",30)
         self.color = (0,0,255)
